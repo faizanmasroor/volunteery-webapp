@@ -3,11 +3,6 @@ from webscraping import StewpotScraper
 import os
 import mysql.connector
 
-
-def foo(x):
-    print(x)
-
-
 load_dotenv()
 
 db_user = os.getenv("SQL_DB_USER")
