@@ -1,0 +1,13 @@
+.container {
+    width: fit-content;
+    height: fit-content;
+
+    border: thin solid #0f0f0f;
+    border-radius: 8px;
+    box-shadow: 8px 6px 0 rgba(0,0,0,0.2);
+    padding: 10px;
+}
+
+.center {
+    margin: 0 auto;
+}
