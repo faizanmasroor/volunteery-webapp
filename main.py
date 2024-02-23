@@ -1,7 +1,7 @@
 from dotenv import load_dotenv
 from webscraping import StewpotScraper
 import os
-import mysql.connector # to install package, run the following command: "conda install -c anaconda mysql-connector-python"
+import mysql.connector  # to install package, run: "conda install -c anaconda mysql-connector-python"
 
 load_dotenv()
 
