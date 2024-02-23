@@ -4,7 +4,6 @@ mysql.connector --> "conda install -c anaconda mysql-connector-python"
 """
 
 from dotenv import load_dotenv
-from webscraping import StewpotScraper
 import os
 import mysql.connector
 

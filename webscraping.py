@@ -1,7 +1,9 @@
 """
 Specific package installation commands:
-playwright.sync_api --> "conda config --add channels conda-forge", "conda config --add channels microsoft",
-                        "conda install playwright", "playwright install"
+playwright.sync_api --> "conda config --add channels conda-forge",
+                        "conda config --add channels microsoft",
+                        "conda install playwright",
+                        "playwright install"
 """
 
 from playwright.sync_api import sync_playwright
