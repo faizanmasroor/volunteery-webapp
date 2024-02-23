@@ -4,7 +4,6 @@ playwright.sync_api --> "conda config --add channels conda-forge", "conda config
                         "conda install playwright", "playwright install"
 """
 
-
 from playwright.sync_api import sync_playwright
 from bs4 import BeautifulSoup
 from datetime import datetime
