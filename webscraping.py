@@ -6,8 +6,8 @@ from datetime import datetime
 class StewpotScraper:
     """
     A class can scrape The Stewpot's website to find the names, dates, addresses, and age restrictions of all available
-    volunteering events. The scrape_website() method returns all this information as a single list of dictionaries, with
-    each dictionary corresponding to one event, and each dictionary containing key-value pairs of the four
+    volunteering events. The scrape_website() method returns all this information as a single list of dictionaries,
+    with each dictionary corresponding to one event, and each dictionary containing key-value pairs of the four
     aforementioned attributes and the collected data.
 
     ...
