@@ -173,8 +173,7 @@ class StewpotScraper:
         list[datetime]
         """
 
-        # TODO: Modify get_event_dates() so it returns the event dates as strings with the format "YYYY-MM  -DD" so it
-        #  abides by MySQL formatting.
+        # TODO: Figure out some other format when importing all the dates for volunteering events, because MySQL does not support lists as input datatypes for data tables.
 
         try:
             table = self.curr_event_soup.find('table', id='shifts-table')
