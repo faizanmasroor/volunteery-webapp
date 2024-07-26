@@ -1,6 +1,6 @@
 """
-Specific package installation commands:
-mysql.connector --> "conda install -c anaconda mysql-connector-python"
+Installation commands for Python MySQL Connector:
+    "conda install -c anaconda mysql-connector-python"
 """
 
 from dotenv import load_dotenv
